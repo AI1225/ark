@@ -1,2 +1,37 @@
-# ark
-{   "coreIp": "127.0.0.1",   "p2pPort": 4002,   "apiPort": 4003,   "webhookPort": 4004,   "jsonRpcPort": 8080,   "explorerIp": "0.0.0.0",   "explorerPort": 4200,   "chainName": "jcb",   "token": "12",   "cliAlias": "CHAIN_NAME",   "databaseHost": "localhost",   "databasePort": "5432",   "databaseName": "core_bridgechain",   "symbol": "jcb",   "mainnetPeers": [     "192.0.2.10"   ],   "devnetPeers": [     "198.51.100.0"   ],   "mainnetPrefix": "J",   "devnetPrefix": "J",   "testnetPrefix": "J",   "fees": {     "static": {       "transfer": 10000000,       "vote": 100000000,       "secondSignature": 500000000,       "delegateRegistration": 2500000000,       "multiSignature": 500000000,       "ipfs": 500000000,       "multiPayment": 10000000,       "delegateResignation": 2500000000     },     "dynamic": {       "enabled": false,       "minFeePool": 3000,       "minFeeBroadcast": 3000,       "addonBytes": {         "transfer": 100,         "secondSignature": 250,         "delegateRegistration": 400000,         "vote": 100,         "multiSignature": 500,         "ipfs": 250,         "multiPayment": 500,         "delegateResignation": 400000       }     }   },   "forgers": 51,   "blocktime": 8,   "transactionsPerBlock": 150,   "totalPremine": 12500000000000000,   "rewardHeightStart": 1,   "rewardPerBlock": 200000000,   "vendorFieldLength": 255,   "bridgechainPath": "\$HOME/core-bridgechain",   "explorerPath": "\$HOME/core-explorer",   "gitCoreCommit": true,   "gitCoreOrigin": "https://api.ark.dev/",   "gitExplorerCommit": true,   "gitExplorerOrigin": "",   "licenseName": null,   "licenseEmail": null }
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/AI1225/ark/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AI1225/ark/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
